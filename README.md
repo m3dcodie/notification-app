@@ -111,6 +111,22 @@ This project is the notification backbone for a platform that must reliably deli
 - AWS Lambda (for SMS and webhook channels)
 - Jest (unit testing)
 
+## How to Run
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Start the development server:
+
+```bash
+npm run dev
+```
+
+The API will be available at `http://localhost:3000` by default.
+
 ## Monitoing
 
 - Monitor queue lengths and set alerts for backpressure.
